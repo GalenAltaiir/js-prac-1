@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table>
+        <thead>
+            <td>NAME</td>
+            <td>SURNAME</td>
+        </thead>
+        <tbody>
+            <tr>
+                <td id = "name" class = "clr">Damian</td>
+                <td id = "surname" class = "clr">Glen</td>
+            </tr>
+            <tr>
+                <td  class = "clr">Jackie</td>
+                <td  class = "clr">Chan</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script>
+        
+        // Changing Existing HTML to different values
+        let name = "Susan";
+        let surname = "Smith"
+       
+        document.getElementById("name").innerHTML = name; // changes the table value from John to Susan
+        document.getElementById("surname").innerHTML = surname; // changes surname from Doe to Smith
+
+
+        // Saving data from HTML into a JS Variable
+        let nameTest = document.getElementById("name"); // saves element type in variable
+        let nameTest2 = document.getElementById("name").innerHTML;  // saves element value in variable
+        
+
+        document.getElementById("name").style.backgroundColor = "red";
+
+    </script>
+</body>
+</html>

@@ -1,42 +1,15 @@
 <head>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
    <h1 id="test"> JS Prac 1</h1>
 
 
-   <table>
-       <th>
-           <td>
-               [Name]
-           </td>
-           <td>
-               [Surname]
-           </td>
-       </th>
-       <tr>
-           <td>
-           </td>
-
-           <td id="name">
-               John
-           </td>
-           <td id="surname">Doe</td>
-       </tr>
-   </table>
 
     <script>
-        // Changing Existing HTML to different values
-        let name = "Susan";
-        let surname = "Smith"
-       
-        document.getElementById("name").innerHTML = name; // changes the table value from John to Susan
-        document.getElementById("surname").innerHTML = surname; // changes surname from Doe to Smith
+        alert("Zzz");
+        console.log("yyy")
 
-
-        // Saving data from HTML into a JS Variable
-        let nameTest = document.getElementById("name"); // saves element type in variable
-        let nameTest2 = document.getElementById("name").innerHTML;  // saves element value in variable
-        
         document.write(nameTest); // outputs element type
         document.write("<br>")
         document.write(nameTest2); // outputs inside of the element
@@ -50,11 +23,12 @@
         document.write(changeMe); 
         document.write("<br><br>")
         let coolVar = 10;
-        document.write("This variable is a " + typeof(coolVar) + "<br>");// types out the type of variable this is
+        document.write("This variable is a " + typeof(coolVar) + "\n");// types out the type of variable this is
         
         coolVar = "Ten";
 
         document.write("This variable is a " + typeof(coolVar));// types out the type of variable this is
+    
     </script>
 </body>
 </html>
